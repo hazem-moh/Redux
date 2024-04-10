@@ -53,7 +53,7 @@ function Item({ onAddToCart, onRemoveFromCart }) {
   return (
     <div className='card p-32 bg-gray-200 relative rounded w-fit'>
       <p className='uppercase text-2xl font-bold'>product</p>
-      <button className='p-2 bg-red-500 text-white absolute bottom-4 right-4 rounded-md cursor-pointer' onClick={handleAddToCart}>
+      <button className='p-2 bg-green-500 text-white absolute bottom-4 right-4 rounded-md cursor-pointer' onClick={handleAddToCart}>
         Add product
       </button>
       <button className='p-2 bg-red-500 text-white absolute bottom-4 left-4 rounded-md cursor-pointer' onClick={handleRemoveFromCart}>
